@@ -22,7 +22,6 @@ $(document).ready(function(){
         }, 2000);
       });
 
-
       // ocultar boton ir al inicio
       var didScroll;
       var lastScrollTop = 0;
