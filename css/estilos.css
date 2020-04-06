@@ -1,0 +1,61 @@
+/* inicio de importar fuentes */
+@font-face {
+    font-family:"Gotu" ;
+    src: url("../../fonts/Gotu/Gotu-Regular.ttf");
+  }
+  @font-face {
+    font-family:"Baloo";
+    src: url("../../fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf");
+  }
+  @font-face {
+    font-family:"Poppins" ;
+    src: url("../../fonts/Poppins/Poppins-Regular.ttf");
+  }
+/* fin de importar fuentes */
+:root{
+    --fondo1: #81BEF7;
+}
+
+
+.azul{
+    background: var(--fondo1);
+    /* background-image:url("../../texturas/oriental-tiles/oriental-tiles/oriental-tiles.png"); */
+  }
+  .oriental-tiles{
+    background-image:url("../../texturas/oriental-tiles/oriental-tiles/oriental-tiles.png");
+  }
+  .snow{
+    background-image:url("../../texturas/blue-snow/blue-snow/blue-snow.png");
+  }
+  .dark-honey{
+    background-image:url("../../texturas/dark-honeycomb/dark-honeycomb/dark-honeycomb.png");
+  }
+  .hexellence{
+    background-image:url("../../texturas/hexellence/hexellence/hexellence.png");
+  }
+  .sun-pattern{
+    background-image:url("../../texturas/sun-pattern/sun-pattern/sun-pattern.png");
+  }
+  .web-dark{
+    background-image:url("../../texturas/webb-dark/webb-dark/webb-dark.png");
+  }
+  .wood{
+    background-image:url("../../texturas/wood_1/wood_1/wood_1.png");
+  }
+  .menu{
+      border-bottom: 1px solid transparent;
+      opacity: 0.7;
+  }
+  .menu:hover{
+    /* border-bottom: 1px solid white; */
+    opacity: 1;
+  }
+  .poppins{
+    font-family: "Poppins";
+  }
+  .gotu{
+    font-family: "Gotu";
+  }
+  .baloo{
+    font-family: "Baloo";
+  }
